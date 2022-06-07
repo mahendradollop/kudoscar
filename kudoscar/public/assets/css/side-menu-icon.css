@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/menu_fonts/icomoon.eot?hs71qx');
+    src:  url('fonts/menu_fonts/icomoon.eot?hs71qx#iefix') format('embedded-opentype'),
+      url('fonts/menu_fonts/icomoon.ttf?hs71qx') format('truetype'),
+      url('fonts/menu_fonts/icomoon.woff?hs71qx') format('woff'),
+      url('fonts/menu_fonts/icomoon.svg?hs71qx#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-attach_file:before {
+    content: "\e900";
+    color: #0f0f0f;
+  }
+  .icon-calendar:before {
+    content: "\e901";
+    color: #0f0f0f;
+  }
+  .icon-comment-user:before {
+    content: "\e902";
+    color: #0f0f0f;
+  }
+  .icon-document:before {
+    content: "\e903";
+    color: #0f0f0f;
+  }
+  .icon-edite-location:before {
+    content: "\e904";
+    color: #0f0f0f;
+  }
+  .icon-gps-fixed:before {
+    content: "\e905";
+  }
+  .icon-home:before {
+    content: "\e906";
+    color: #000;
+  }
+  .icon-manage-vehcles:before {
+    content: "\e907";
+    color: #0f0f0f;
+  }
+  .icon-outline-star:before {
+    content: "\e908";
+    color: #0f0f0f;
+  }
+  .icon-select-car:before {
+    content: "\e909";
+    color: #0f0f0f;
+  }
+  .icon-settings-sliders:before {
+    content: "\e90a";
+    color: #0f0f0f;
+  }
+  .icon-share:before {
+    content: "\e90b";
+    color: #0f0f0f;
+  }
+  .icon-time-past:before {
+    content: "\e90c";
+    color: #0f0f0f;
+  }
+  .icon-tmessage:before {
+    content: "\e90d";
+    color: #0f0f0f;
+  }
+  

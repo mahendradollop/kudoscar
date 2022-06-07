@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="17.349" viewBox="0 0 55 17.349">
+  <g id="Group_1148" data-name="Group 1148" transform="translate(-289 -256)">
+    <line id="Line_100" data-name="Line 100" x2="34" transform="translate(299.5 269.35)" fill="none" stroke="#c1cbd6" stroke-width="1" stroke-dasharray="4 2"/>
+    <g id="Ellipse_192" data-name="Ellipse 192" transform="translate(289 265.35)" fill="#f3f9ff" stroke="#d5deeb" stroke-width="1.5">
+      <ellipse cx="5.5" cy="4" rx="5.5" ry="4" stroke="none"/>
+      <ellipse cx="5.5" cy="4" rx="4.75" ry="3.25" fill="none"/>
+    </g>
+    <g id="Ellipse_196" data-name="Ellipse 196" transform="translate(333 265.35)" fill="rgba(229,85,85,0.05)" stroke="#e95757" stroke-width="1.5">
+      <ellipse cx="5.5" cy="4" rx="5.5" ry="4" stroke="none"/>
+      <ellipse cx="5.5" cy="4" rx="4.75" ry="3.25" fill="none"/>
+    </g>
+    <g id="Ellipse_194" data-name="Ellipse 194" transform="translate(311 265.35)" fill="#f3f9ff" stroke="#d5deeb" stroke-width="1.5">
+      <ellipse cx="5.5" cy="4" rx="5.5" ry="4" stroke="none"/>
+      <ellipse cx="5.5" cy="4" rx="4.75" ry="3.25" fill="none"/>
+    </g>
+    <path id="Path_4074" data-name="Path 4074" d="M165.47,313.32a.36.36,0,0,1-.152-.346c0-2.031,0-4.061,0-6.088,0-.123-.041-.149-.149-.16a3.37,3.37,0,1,1,.893-.011c-.093.015-.227-.019-.271.048s-.019.193-.019.29v5.932c0,.149-.026.272-.179.335Zm-1.053-11.768a.9.9,0,1,0,.9.9A.9.9,0,0,0,164.418,301.553Z" transform="translate(172.955 -43.971)" fill="#e95757"/>
+    <path id="Path_4075" data-name="Path 4075" d="M199.9,342.5a.9.9,0,1,1-.9.9A.907.907,0,0,1,199.9,342.5Z" transform="translate(93.474 -84.918)" fill="#fff"/>
+  </g>
+</svg>

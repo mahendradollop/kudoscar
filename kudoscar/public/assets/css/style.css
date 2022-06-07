@@ -1,0 +1,3203 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Global CSS start here  */
+/* change container width */
+
+.container {
+  max-width: 1200px;
+}
+
+/* Fonts  */
+.font-12 {
+  font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+/* font weight */
+.font-400 {
+  font-weight: 400;
+}
+
+.font-500 {
+  font-weight: 500;
+}
+
+.font-600 {
+  font-weight: 600;
+}
+
+.font-700 {
+  font-weight: 700;
+}
+
+.font-800 {
+  font-weight: 800;
+}
+
+.font-900 {
+  font-weight: 900;
+}
+
+/* colors */
+.primary {
+  color: #087965 !important;
+}
+
+.secondary {
+  color: #6f7c8e !important;
+}
+
+.dark {
+  color: #121614 !important;
+}
+
+/* background colors */
+.bg-primary {
+  background: #087965 !important;
+}
+
+.bg-dark {
+  background: #121614 !important;
+}
+
+/* buttons  */
+.btn:focus {
+  box-shadow: none !important;
+}
+
+.btn-primary {
+  background-color: #087965 !important;
+  color: #ffffff !important;
+  font-size: 16px;
+  padding: 12px 30px !important;
+  border-radius: 10px;
+  border: 1px solid #087965 !important;
+  transition: ease 0.05s;
+  font-weight: 500;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: transparent !important;
+  color: #087965 !important;
+  border-color: #087965 !important;
+  box-shadow: 0px 0px 0px;
+}
+
+.btn-outline-primary {
+  border: 1px solid #087965 !important;
+  color: #087965 !important;
+  padding: 7px 24px !important;
+  transition: ease 0.05s;
+  font-size: 15pxs;
+  box-shadow: 0px 0px 0px;
+  border-radius: 10px;
+  font-weight: 500;
+  height: 42px;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  border-color: transparent !important;
+  color: #ffffff !important;
+  background: #087965 !important;
+  box-shadow: 0px 0px 0px;
+}
+
+.btn-dark {
+  background: #121614 !important;
+  color: #ffffff !important;
+  font-size: 15px;
+  padding: 8px 24px !important;
+  border-radius: 10px;
+  border: 1px solid #121614 !important;
+  transition: ease 0.05s;
+  font-weight: 500;
+}
+
+.btn-dark:hover,
+.btn-dark:focus {
+  border-color: #121614 !important;
+  color: #121614 !important;
+  background: transparent !important;
+  box-shadow: 0px 0px 0px;
+}
+
+.btn-white {
+  background: #ffffff !important;
+  color: #121614 !important;
+  font-size: 16px;
+  padding: 12px 30px !important;
+  border-radius: 10px;
+  border: 1px solid transparent !important;
+  transition: ease 0.05s;
+  font-weight: 500;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+  background: transparent !important;
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+  box-shadow: 0px 0px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Global Css End HERE  */
+
+/************************************** INDEX PAGE START HERE  **********************************/
+body {
+  font-family: outfit;
+  font-weight: 400;
+  color: #121614;
+  min-height: 100vh;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.main_top_section {
+  background: linear-gradient(to bottom,
+      rgba(8, 121, 101, 0) 0%,
+      rgba(8, 121, 101, 0.04) 100%);
+  padding-top: 180px;
+}
+
+.main-navbar {
+  border-radius: 0 0 25px 25px;
+  box-shadow: 0 4px 17px rgba(8, 121, 101, 0.05);
+  padding: 18px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+/* after login header css start here */
+
+.after_login_head .right_menu {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background-color: #121614;
+  border-radius: 12px;
+  margin-right: 25px;
+}
+
+.after_login_head .collapse {
+  display: inline-flex !important;
+  width: auto;
+  flex-grow: 0;
+}
+
+.main-navbar.after_login_head ul.navbar-nav li.nav-item a.nav-link {
+  font-size: 16px;
+}
+
+.main-navbar.after_login_head ul.navbar-nav .head_notification a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E3EBF5;
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+}
+
+.main-navbar ul.navbar-nav li.nav-item.head_notification {
+  margin-right: 25px;
+}
+
+.main-navbar.after_login_head ul.navbar-nav .user_profile {
+  padding: 5px;
+  position: relative;
+  border: 1px solid #DCE0ED;
+  border-radius: 10px;
+}
+
+.main-navbar.after_login_head ul.navbar-nav .user_profile a:after {
+  display: none;
+}
+
+.main-navbar.after_login_head ul.navbar-nav .user_profile .user_pro_image {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50px;
+  background: linear-gradient(45deg, #006f5b 0%, #25bba0 100%);
+  color: #fff;
+  margin-right: 9px;
+  font-weight: 600;
+}
+
+.user_profile .dropdown-menu {
+  min-width: 318px;
+  box-shadow: 0px 4px 22px rgba(18, 22, 20, 0.07);
+  border-radius: 5px;
+  right: 0;
+  left: auto;
+  border: 0px;
+  margin-top: 16px;
+  padding: 6px;
+  overflow: hidden;
+}
+
+.main-navbar.after_login_head ul.navbar-nav .user_profile .dropdown-menu .dropdown_user_profile {
+  border-bottom: 1px solid #D5DEEB;
+  padding: 15px 6px 15px 68px;
+  border-radius: 5px;
+}
+
+.main-navbar.after_login_head ul.navbar-nav .user_profile .dropdown-menu .user_pro_image {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+}
+
+.main-navbar.after_login_head ul.navbar-nav .user_profile .dropdown-menu li a {
+  padding: 10px 6px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #121614;
+}
+
+.main-navbar.after_login_head ul.navbar-nav .user_profile .dropdown-menu li a:hover {
+  border-radius: 5px;
+}
+
+.dropdown_user_profile h4 {
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  margin: 0;
+}
+
+.dropdown_user_profile .view_profile {
+  font-size: 12px;
+  color: #087965;
+  font-weight: 500;
+  margin: 0;
+}
+
+.dropdown_inner_right_arrow {
+  position: absolute;
+  top: auto;
+  right: 12px;
+  width: 25px;
+  height: 25px;
+  background-color: #E3EBF5;
+  border-radius: 50px;
+}
+
+.dropdown_inner_right_arrow span {
+  font-size: 12px;
+  color: #121614
+}
+
+.pro_dropdown_icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  background-color: #E3EBF5;
+  margin-right: 17px;
+}
+
+.user_profile .dropdown-menu .dropdown_logout {
+  padding: 15px 6px;
+  border-top: 1px solid #D5DEEB;
+  margin-top: 10px;
+}
+
+/* after login header css end here */
+
+/* right side bar menu css start here */
+
+.right_side_menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 325px;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 0px 20px 20px 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1009;
+  transition: ease 0.2s;
+  transform: translateX(-390px);
+}
+
+.show_right_menu .full_width_overlay {
+  display: block;
+  opacity: 1;
+  z-index: 1009;
+}
+
+.show_right_menu .right_side_menu {
+  transform: translateX(0);
+}
+
+.inner_logo {
+  text-decoration: none;
+}
+
+.kudos_logo {
+  font-size: 25px;
+  font-weight: 900;
+  color: #121614;
+}
+
+.kudos_logo .car_text {
+  color: #087965;
+}
+
+.rms_switch_theme {
+  padding: 10px 0;
+  border-top: 1px solid #D5DEEB;
+}
+
+.rms_switch_theme .rms_switch_icon {
+  width: 31px;
+  height: 31px;
+  border-radius: 50px;
+  background-color: #087965;
+  margin-right: 7px;
+}
+
+/* custome switch start  */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 22px;
+  height: 13px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /*! background-color: #ccc; */
+  -webkit-transition: .4s;
+  transition: .4s;
+  border: 1px solid #6F7C8E;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 5px;
+  width: 5px;
+  left: 3px;
+  bottom: auto;
+  background-color: #6F7C8E;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.slider {
+  background-color: transparent;
+  border: 1px solid #12AF00;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(9px);
+  -ms-transform: translateX(9px);
+  transform: translateX(9px);
+  background-color: #12AF00;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* switch end  */
+.side_link_title {
+  color: #6F7C8E;
+  margin-bottom: 0;
+  padding-top: 17px;
+  padding-bottom: 10px;
+  border-top: 1px solid #D5DEEB;
+}
+
+.rs_side_links li {
+  list-style-type: none;
+}
+
+.rs_side_links li a {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  font-size: 14px;
+  color: #6F7C8E;
+  position: relative;
+  padding-left: 34px;
+  padding: 12px 0px;
+  transition: ease 0.5s;
+}
+
+.rs_side_links li a:hover {
+  color: #087965;
+}
+
+.rs_side_links li a:hover .rs-right_arrow {
+  color: #6F7C8E;
+}
+
+.rs_side_links li a .rs_link_icon {
+
+  margin-right: 19px;
+}
+
+.rs_side_links li a.logout {
+  color: #FF4779;
+  margin-top: 10px;
+  border-top: 1px solid #D5DEEB;
+}
+
+.common_close {
+  position: absolute;
+  top: 10px;
+  right: -55px;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 50px;
+  border: 0;
+  color: #ffffff;
+}
+
+.publish_ride_modal .common_close {
+  margin-bottom: 20px;
+}
+
+/* right side bar menu css start here */
+
+.main-navbar ul.navbar-nav li.nav-item a.nav-link {
+  font-size: 15px;
+  font-weight: 400;
+  color: #121614;
+  padding: 0;
+}
+
+.main-navbar ul.navbar-nav li.nav-item a.nav-link.active {
+  color: #087965;
+  font-weight: 500;
+}
+
+.main-navbar ul.navbar-nav li.nav-item {
+  margin-right: 40px;
+}
+
+.main-navbar ul.navbar-nav li.nav-item:last-child {
+  margin-right: 0;
+}
+
+.logo .navbar-brand {
+  font-size: 30px;
+  font-weight: 700;
+
+
+  /* position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%); */
+}
+
+.main-navbar .logo {
+  line-height: 0;
+}
+
+.other_option .contact_btn {
+  margin-right: 20px;
+}
+
+h1.header_title {
+  font-size: 46px;
+  margin-bottom: 20px;
+}
+
+.dashed_underline {
+  position: relative;
+}
+
+.dashed_underline:before {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  border-bottom: 0.2rem dashed #087965;
+  width: 100%;
+}
+
+.quick_ride_tabs {
+  margin-top: 50px;
+}
+
+.quick_ride_tabs .ride_tab li {
+  margin-right: 30px;
+}
+
+.quick_ride_tabs .ride_tab li:last-child {
+  margin-right: 0;
+}
+
+.quick_ride_tabs .ride_tab li button.nav-link {
+  border: 1px solid #d5deeb;
+  padding: 15px 30px;
+  border-radius: 18px;
+  background: #ffffff;
+  color: #6f7c8e;
+}
+
+.quick_ride_tabs .ride_tab li button.nav-link.active {
+  border: 1px solid #087965;
+  background: #f5fffd;
+  color: #121614;
+}
+
+.quick_ride_tabs .ride_tab li button.nav-link.active span.icon_outer {
+  background: #e9f8f5;
+}
+
+span.icon_outer {
+  width: 55px;
+  height: 55px;
+  border-radius: 18px;
+  background: #f7f8fb;
+  margin-bottom: 10px;
+}
+
+span.tab_icon {
+  font-size: 30px;
+}
+
+.active_icon,
+.quick_ride_tabs .hover {
+  display: none;
+}
+
+.quick_ride_tabs .ride_tab li button.nav-link.active .regular_icon,
+.quick_ride_tabs .ride_tab li button.nav-link.active .default {
+  display: none;
+
+}
+
+.quick_ride_tabs .ride_tab li button.nav-link.active .active_icon,
+.quick_ride_tabs .ride_tab li button.nav-link.active .hover {
+  display: block;
+}
+
+.publish_ride-item {
+  padding: 15px;
+  border: 1px solid #E3EBF5;
+  border-radius: 15px;
+  padding-left: 105px;
+  min-height: 104px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.ride_right_arrow {
+  position: absolute;
+  right: 15px;
+}
+
+.publish_ride-item .pr_item_icon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 74px;
+  height: 74px;
+  border-radius: 18px;
+  background-color: rgba(8, 121, 101, 0.05);
+}
+
+.publish_ride-item h5 {
+  font-size: 18px;
+  color: #121614;
+  width: 100%;
+}
+
+.publish_ride-item p {
+  line-height: 17px;
+  color: #6F7C8E;
+}
+
+.common_search_ride {
+  margin-top: 45px;
+  border: 1px solid #d5deeb;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+img.tabs_imgs {
+  position: absolute;
+  right: -26px;
+  top: -19px;
+}
+
+.search_ride_box {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.single_search_item {
+  padding: 0 10px;
+  width: 20%;
+}
+
+.search_item_title {
+  margin-bottom: 12px;
+}
+
+.single_search_item .search_item_title {
+  margin-left: 17px;
+}
+
+.single_search_item .search_item_title:before,
+.location_mark_icon:before {
+  content: "";
+  position: absolute;
+  top: auto;
+  left: -16px;
+  width: 12px;
+  height: 12px;
+  border: 3px solid #087965;
+  border-radius: 100%;
+  background: #b3efe4;
+}
+
+input.form-control {
+  background: #f9f9f9 !important;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  height: 47px;
+  color: #121614;
+}
+
+.single_search_item .search_item_title.goin_to:before,
+.location_mark_icon.gray:before {
+  border-color: #121614;
+  background: #d5deeb;
+}
+
+.single_search_item .search_item_title.datetime:before {
+  content: "\e92a";
+  font-family: "icomoon";
+  width: 0;
+  height: 0;
+  border: none;
+  top: 1px;
+  left: -20px;
+  color: #087965;
+}
+
+.btn-dark:hover .icon-arrow:before {
+  color: #121614;
+}
+
+.single_search_item .search_item_title.seats {
+  margin-left: 31px;
+}
+
+.single_search_item .search_item_title.seats:before {
+  content: "\e92c";
+  font-family: "icomoon";
+  width: 0;
+  height: 0;
+  border: none;
+  top: 1px;
+  left: -28px;
+  color: #087965;
+}
+
+span.minus {
+  position: absolute;
+  left: 10px;
+  width: 29px;
+  top: auto;
+  height: 29px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+span.plus {
+  position: absolute;
+  top: auto;
+  right: 10px;
+  width: 29px;
+  height: 29px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+input.count {
+  text-align: center;
+  font-size: 18px;
+}
+
+span.exchange {
+  position: absolute;
+  bottom: 9px;
+  right: -16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #d5deeb;
+}
+
+img.header_left {
+  position: absolute;
+  bottom: 40%;
+  left: 19px;
+}
+
+img.header_right {
+  position: absolute;
+  right: 11px;
+  bottom: 42%;
+}
+
+/* search_ride_modal css */
+.search_ride_modal .common_close {
+  margin-bottom: 20px !important;
+  margin: auto;
+}
+
+.search_ride_modal {
+  overflow: hidden;
+}
+
+.search_ride_modal .modal-dialog,
+.publish_ride_modal .modal-dialog {
+  max-width: 1100px;
+}
+
+.search_ride_modal .modal-content,
+.publish_ride_modal .modal-content {
+  background-color: transparent;
+
+}
+
+.search_ride_modal .modal-header h5 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.white_overlay .modal-backdrop {
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 1) 100%);
+  opacity: 1 !important;
+}
+
+.search_history_box .shb_top_head {
+  margin-top: 28px;
+  margin-bottom: 10px;
+}
+
+.search_history_box .shb_top_head h5 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.search_history_box .shb_top_head .clear_history {
+  padding: 6px 12px;
+  border-radius: 50px;
+  background-color: #F9F9F9;
+  font-size: 11px;
+  color: #000;
+  font-weight: 500;
+}
+
+.search_history_box .shb_top_head .clear_history span {
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+.search_history_box .shb_resault_box {
+  border-radius: 15px 15px 0 0;
+  background-color: #E3EBF5;
+  border: 1px solid #E3EBF5;
+  padding: 13px 0 13px;
+  max-height: 254px;
+  overflow-y: auto;
+}
+
+.search_history_box .shb_search_item {
+  padding: 12px 20px;
+  border-bottom: 1px solid #D5DEEB;
+  cursor: pointer;
+}
+
+.shb_item_iocn {
+  position: absolute;
+  top: 13px
+}
+
+.shb_search_item .shb_item_ride {
+  padding-left: 21px;
+}
+
+.shb_search_item .shb_item_ride h4 {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  ;
+}
+
+.shb_search_item .shb_item_details {
+  color: #6F7C8E;
+  margin: 0 -7px;
+}
+
+.shb_search_item .shb_item_details li {
+  list-style-type: none;
+  font-size: 12px;
+  padding: 0 7px;
+}
+
+.shb_search_item .passenger_count {
+  width: 20px;
+  height: 15px;
+  border-radius: 3px;
+  background-color: #EFF6F7;
+  color: #087965;
+  margin-left: 5px;
+}
+
+.publish_ride_modal .publish_ride-item {
+  box-shadow: 0px 4px 22px rgba(00, 00, 00, 0.10);
+}
+
+/********** SECTION BENEFIT YOU  ************/
+section.benefit_you {
+  padding: 122px 0 139px 0;
+  border-radius: 40px 40px 0 0;
+  margin-top: -40px;
+}
+
+h3.section_main_heading {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+h3.section_main_heading:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  width: 198px;
+  height: 5px;
+  background-color: #fff;
+}
+
+.benefit_card_box {
+  margin-top: 72px;
+}
+
+span.card_icon {
+  font-size: 26px;
+  position: relative;
+  z-index: 9;
+}
+
+span.card_image {
+  width: 59px;
+  height: 59px;
+  border-radius: 16px;
+  background: #fff;
+  margin-bottom: 18px;
+}
+
+span.card_image:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  background: #087965;
+  opacity: 0.13;
+  border-radius: 0 16px 0 16px;
+}
+
+span.card_image.insta_booking:after {
+  bottom: auto;
+  top: 0;
+  border-radius: 16px 0 16px 0;
+}
+
+span.card_image.publish_earn:after {
+  left: auto;
+  right: 0;
+  border-radius: 16px 0;
+}
+
+span.card_image.trustable_plateform:after {
+  left: auto;
+  bottom: auto;
+  right: 0;
+  top: 0;
+}
+
+/******** YOUR SAFTY IS OUR PRIORITY  *********/
+section.safty_priority {
+  padding: 90px 0 131px 0;
+  border-radius: 40px 40px 0 0;
+  margin-top: -47px;
+  background: #fcfdfd;
+}
+
+h3.section_main_heading.safty:before {
+  background: #18181a;
+  width: 151px;
+}
+
+p.section_details {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+/******** WHERE DO YOU WANT TO GO ********/
+.where_wnat_to_go {
+  border-radius: 40px 40px 0 0;
+  margin-top: -47px;
+  padding: 90px 0 130px;
+}
+
+.recent_rides_box {
+  margin-top: 60px;
+}
+
+.single_recent_ride_card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 22px 15px 15px;
+  margin-bottom: 30px;
+}
+
+.stat_place,
+.end_place {
+  margin-left: 20px;
+}
+
+h6.stat_place:after {
+  content: "";
+  position: absolute;
+  top: auto;
+  left: -13px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background: #d6fff8;
+  border: 2px solid #087965;
+}
+
+h6.stat_place:before {
+  content: "";
+  position: absolute;
+  bottom: -38px;
+  left: -9px;
+  width: 2px;
+  height: 50px;
+  background: #c1cbd6;
+}
+
+.user_name {
+  max-width: 180px;
+}
+
+h6.end_place:after {
+  content: "";
+  position: absolute;
+  left: -14px;
+  top: auto;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background: #121614;
+  border: 2px solid #c1cbd6;
+}
+
+span.user_image {
+  width: 28px;
+  height: 28px;
+  border-radius: 100px;
+  border: 1px solid #087965;
+  overflow: hidden;
+}
+
+span.user_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+span.verified_icon {
+  position: absolute;
+  bottom: -3px;
+  right: -1px;
+  color: #087965;
+  font-size: 11px;
+}
+
+span.ride_rating {
+  margin-left: 4px;
+  background: #d6e7e4;
+  padding: 3px 7px;
+  color: #087965;
+  border-radius: 15px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.ride_car_detail {
+  margin-top: 14px;
+}
+
+.ride_car_detail .car {
+  margin-left: 15px;
+}
+
+span span.arrow_car {
+  position: absolute;
+  bottom: -30px;
+  left: 12px;
+  height: 25px;
+  width: 2px;
+  background: #087965;
+}
+
+span span.arrow_car:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0px;
+  width: 10px;
+  height: 2px;
+  background: #087965;
+}
+
+span span.arrow_car:before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  bottom: -6px;
+  font-size: 15px;
+  color: #087965;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #087965;
+}
+
+span.ride_other_icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  background: #087965;
+}
+
+.view_all_recent_rides {
+  margin-top: 50px;
+}
+
+/********** DRIVING YOUR CAR SOON END ***********/
+section.driving_your_car {
+  margin-top: -47px;
+  background: #fff;
+  border-radius: 40px 40px 0 0;
+  padding: 90px 130px;
+}
+
+.driving_car_text button.btn-primary {
+  height: 43px;
+  padding: 8px 17px !important;
+}
+
+/********* DRIVING YOUR CAR SOON END ***********/
+
+/********* DOWNLOAD THE APP ********************/
+.download_app {
+  margin-top: -47px;
+  border-radius: 40px 40px 0 0;
+  padding: 80px 0;
+}
+
+h3.section_main_heading.app_download:before {
+  width: 157px;
+}
+
+.app_download {
+  margin-top: 10px;
+}
+
+.app_download a {
+  margin-right: 20px;
+}
+
+/********* DOWNLOAD THE APP END ****************/
+
+/********* FOOTER  ****************************/
+.footer {
+  margin-top: -47px;
+  border-radius: 40px 40px 0 0;
+  background-color: #f5fffd;
+  padding-top: 110px;
+}
+
+.footer_links_box {
+  margin-bottom: 65px;
+}
+
+h3.footer_heading {
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #6f7c8e;
+  margin-bottom: 25px;
+}
+
+p.footer_description {
+  margin-bottom: 20px;
+}
+
+.footer_links_title {
+  margin-bottom: 37px;
+}
+
+ul.footer_links_list {
+  padding-left: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+span.footer_link_icon {
+  font-size: 8px;
+  margin-right: 10px;
+  transition: ease 0.5s;
+  color: #121614;
+}
+
+ul.footer_links_list li {
+  margin-bottom: 20px;
+}
+
+ul.footer_links_list li:last-child {
+  margin-bottom: 0;
+}
+
+h4.footer_links_title:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  height: 3px;
+  width: 60px;
+  background: #121614;
+}
+
+ul.footer_links_list li a {
+  color: #121614;
+  transition: ease 0.5s;
+}
+
+ul.footer_links_list li a:hover {
+  color: #087965;
+}
+
+ul.footer_links_list li a:hover span.footer_link_icon {
+  transform: translateX(5px);
+  color: #087965;
+}
+
+h4.footer_links_title.more:after {
+  width: 28px;
+}
+
+.contact_icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid #e3ebf5;
+  background: #ffffff;
+  margin-right: 12px;
+}
+
+span.dashed_line {
+  border-bottom: 1px dashed #6f7c8e;
+  margin: 25px 0;
+  display: block;
+}
+
+span.footer_social_icon {
+  width: 33px;
+  height: 33px;
+  background: #e9f8f5;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+
+.copyright {
+  padding: 30px 0;
+  border-top: 1px solid #e0e8f1;
+}
+
+/********* FOOTER END *************************/
+
+/************************************ ABOUT KUDOSCAR PAGE  *********************************************/
+.about_company {
+  margin-top: 138px;
+  padding-bottom: 107px;
+}
+
+span.page_section_badge {
+  background: #f3f8f7;
+  padding: 6px 11px;
+  border-radius: 6px;
+}
+
+.about_company p.header_detail {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+span.expand_more_btn {
+  width: 40px;
+  height: 40px;
+  background: #eef6f4;
+  border-radius: 20px;
+}
+
+section.benefit_you.started_impact {
+  padding: 90px 0 87px 0;
+}
+
+h3.section_main_heading.how_started {
+  margin-bottom: 50px;
+}
+
+h3.section_main_heading.how_started:before {
+  width: 157px;
+}
+
+h3.section_main_heading.success_numbers:before {
+  bottom: -1px;
+  width: 184px;
+}
+
+.success_number .single_search_item {
+  padding: 30px 0;
+  border-right: 1px dashed #6f7c8e;
+}
+
+p.success_number {
+  font-size: 45px;
+}
+
+span.success_number_count {
+  font-size: 26px;
+}
+
+/************************************ ABOUT KUDOSCAR PAGE END ******************************************/
+/************************************ FAQ PAGE  ******************************************/
+.faq_box {
+  margin-top: 30px;
+}
+
+img.faq_imgae {
+  position: absolute;
+  top: -81px;
+  left: 10px;
+}
+
+img.faq_imgae {
+  position: absolute;
+  top: -81px;
+  left: 10px;
+}
+
+.faq_accordions .accordion-item {
+  margin-bottom: 20px;
+  border: none;
+}
+
+.faq_accordions .accordion-item.border-green {
+  border: 2px solid #087965;
+  background: #f8fefd;
+  border-radius: 10px;
+}
+
+.faq_box .accordion-header {
+  padding: 0 20px;
+  border-radius: 0;
+  margin-bottom: 0;
+  border: 1px solid #E3EBF5;
+  border-radius: 10px;
+  box-shadow: 0 4px 22px rgba(8, 121, 101, 0.07);
+}
+
+.faq_box .accordion-header.border-green {
+  border: 2px solid #087965;
+  background: #f8fefd;
+  border-radius: 10px;
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.faq_box .accordion-header .accordion-button {
+  border-bottom: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.faq_accordions .accordion-item .accordion-body {
+  border: 2px solid #087965;
+  border-top: none;
+  margin-top: 0;
+  background: #f8fefd;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.faq_box .accordion-button:not(.collapsed) {
+  color: #087965;
+  background-color: transparent;
+  box-shadow: none;
+  font-weight: 500;
+  border-bottom: 1px solid #DCE0ED;
+}
+
+.faq_box .accordion-button:after {
+  background-image: url("../images/svg_icon/plus_circle.svg");
+}
+
+.faq_box .accordion-button:not(.collapsed):after {
+  background-image: url(../images/svg_icon/minus_circle.svg);
+}
+
+/************************************ FAQ PAGE END ******************************************/
+
+/************************************ LOGIN SIGNUP PAGE ******************************************/
+.login_signup_box {
+  position: fixed;
+  width: 22%;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  background: #fff;
+  height: 100%;
+  border-radius: 24px 0 0 24px;
+  padding: 45px 20px;
+  transform: translateX(500px);
+  transition: ease 0.5s;
+  opacity: 0;
+  z-index: 9;
+}
+
+.login-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.login_description {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.login_signup_option .btn.btn-primary {
+  margin-bottom: 25px;
+  font-size: 14px;
+  height: 47px;
+  padding: 0 !important;
+}
+
+.login_signup_option .btn.btn-primary:hover .active_icon {
+  display: block;
+}
+
+.login_signup_option .btn.btn-primary:hover .regular_icon {
+  display: none;
+}
+
+.login_signup_option .btn.btn-dark {
+  height: 47px;
+  font-size: 14px;
+}
+
+.login_signup_option .btn.btn-dark:hover .active_icon {
+  display: block;
+}
+
+.login_signup_option .btn.btn-dark:hover .regular_icon {
+  display: none;
+}
+
+.login_phone_top {
+  margin-bottom: 30px;
+}
+
+.login_back {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  border: 1px solid #d5deeb;
+  background: #f7f8fb;
+  margin-right: 25px;
+}
+
+.form-select.contuntary_code {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  position: absolute;
+  top: auto;
+  left: 5px;
+  padding: 4px;
+  font-size: 12px;
+  background-position: right 2px center;
+  background-size: 10px;
+  background-image: url("../images/svg_icon/select_arrow.svg");
+}
+
+.phone_number_sec .btn.btn-primary {
+  width: 42px;
+  height: 42px;
+  font-size: 12px;
+  position: absolute;
+  top: auto;
+  right: 4px;
+  padding: 0 !important;
+}
+
+.form-control.mobile_number_login {
+  height: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  background: #f9f9f9;
+  padding-left: 56px;
+}
+
+.form-control:focus,
+.form-control:visited,
+.form-control:active {
+  border: 2px solid #087965;
+  background: #f5fffd;
+  box-shadow: none !important;
+}
+
+.form-control.mobile_number_login::placeholder {
+  color: #6f7c8e;
+}
+
+.full_width_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+  opacity: 0;
+}
+
+.close_signup_box {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background: #373a38;
+  position: absolute;
+  left: -50px;
+}
+
+.close_signup_box span {
+  color: #fff;
+}
+
+.login_form_show .full_width_overlay {
+  /*! display: block; */
+  opacity: 1;
+  z-index: 1009;
+}
+
+.login_form_show .login_signup_box {
+  transform: translateX(0);
+  opacity: 1;
+  z-index: 1009;
+}
+
+.btn.btn-google,
+.btn.btn-facebook,
+.btn.btn-apple {
+  height: 50px;
+  border: 1px solid #121614;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.top_input_box {
+  margin-top: 37px;
+  margin-bottom: 27px;
+}
+
+.top_input_box .form-control.mobile_number_login.px-auto {
+  padding: 0;
+  text-align: center;
+}
+
+.otp_correct_number {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.btn.btn-otp-resend {
+  background: #f8fffe;
+  width: 115px;
+  height: 34px;
+  border-radius: 8px;
+  color: #087965;
+}
+
+.btn.btn-otp-resend {
+  background: #f8fffe;
+  width: 115px;
+  height: 34px;
+  border-radius: 8px;
+  color: #087965;
+  margin-top: 42px;
+  margin-bottom: 35px;
+}
+
+.login_using_phone,
+.login_using_social,
+.otp_box {
+  transform: translateX(400px);
+  transition: ease 0.5s;
+  position: absolute;
+  top: 45px;
+  height: 100%;
+  background-color: #fff;
+  left: 0;
+  padding: 20px
+}
+
+.login_signup_option.view_hide {
+  opacity: 0;
+  z-index: -1;
+}
+
+.login_using_phone.mobile_show,
+.login_using_social.social_show,
+.otp_box.text-center.otp_show {
+  transform: translateX(0px);
+  position: absolute;
+  z-index: 99;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.phone_number_sec .btn-primary:hover,
+.phone_number_sec .btn-primary:focus {
+  background-color: #087965 !important;
+  color: #fff !important;
+}
+
+/*************************** HELP CENTER PAGE  *******************************************/
+.search_box {
+  padding: 20px;
+  border: 1px solid #e3ebf5;
+  box-shadow: 0 2px 17px rgba(18, 22, 20, 0.07);
+  border-radius: 18px;
+  margin-top: 30px;
+  margin-bottom: 65px;
+}
+
+.search_icon_help {
+  position: absolute;
+  top: auto;
+  left: 15px;
+}
+
+.form-control.mobile_number_login.help_search {
+  padding-left: 48px;
+  max-width: calc(100% - 174px);
+  margin-right: 20px;
+}
+
+.btn.search_btn_help {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn.search_btn_help {
+  font-size: 16px;
+  font-weight: 500;
+  width: 154px;
+  height: 47px;
+}
+
+.car_pool_box {
+  padding: 20px 23px;
+  border-radius: 10px;
+  box-shadow: 0 4px 22px rgba(8, 121, 101, 0.07);
+  min-height: 150px;
+  margin-bottom: 95px;
+}
+
+.carpool_text {
+  margin-left: 35px;
+}
+
+.carpool_text p {
+  line-height: 1.7;
+}
+
+/*************************** HELP CENTER PAGE END ****************************************/
+
+/*************************** CARPOOL PAGE START  ****************************************/
+.page_title_carpool {
+  border-bottom: 1px solid #dce0ed;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.back_help_center {
+  width: 52px;
+  height: 52px;
+  border-radius: 10px;
+  background: #f9f9f9;
+  border: 1px solid #d5deeb;
+}
+
+.page_main_title_carpool {
+  margin-left: 17px;
+}
+
+.horizontal_line_tab_title {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #6f7c8e;
+  transition: ease 0.5s;
+}
+
+.benefit_of_car_pool_title .nav-link {
+  color: #6f7c8e;
+}
+
+.nav-link.active .horizontal_line_tab_title {
+  width: 27px;
+  background: #087965;
+}
+
+.benefit_of_car_pool_title .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  background-color: transparent;
+  color: #087965;
+  font-weight: 500;
+}
+
+.benefit_of_car_pool_title .nav {
+  border-radius: 12px;
+  border: 1px solid #e3ebf5;
+  box-shadow: 0 2px 17px rgba(18, 22, 20, 0.07);
+}
+
+.content_tab {
+  border-bottom: 1px dashed #c1cbd6;
+}
+
+.tab_content_box .content_tab h6 {
+  font-size: 21px;
+}
+
+/*************************** CARPOOL PAGE END    ****************************************/
+
+/*************************** CONTACT US PAGE END    ****************************************/
+.contact_form_box {
+  border: 1px solid #e3ebf5;
+  border-radius: 18px;
+  box-shadow: 0 2px 17px rgba(18, 22, 20, 0.07);
+  padding: 25px;
+  background: #fff;
+}
+
+.contact_input_box {
+  margin-bottom: 20px;
+}
+
+.form-select.contact_form {
+  border: 0;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  height: 47px;
+  color: #7d858c;
+  background-image: url("../images/svg_icon/angle-small-down_select.svg");
+}
+
+.form-select.contact_form option:hover {
+  background-color: red !important;
+}
+
+.form-select.contact_form:focus,
+.form-select.contact_form:active,
+.form-select.contact_form:visited,
+textarea.form-control.contact_form:focus,
+textarea.form-control.contact_form:active,
+textarea.form-control.contact_form:focus {
+  border: 2px solid #087965;
+  box-shadow: none;
+  background-color: #f5fffd;
+  color: #121614;
+}
+
+textarea.form-control.contact_form {
+  border: none;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  resize: none;
+  border: 2px solid transparent;
+}
+
+/****************** custome check box  *********************/
+
+.plan input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+
+.plan {
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Outfit";
+  font-weight: 500;
+}
+
+.plan .plan-content {
+  display: flex;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  border: 2px solid #F2F2F2;
+  border-radius: 6px;
+  transition: box-shadow 0.4s, -webkit-box-shadow 0.4s;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.plan input[type="radio"]:checked+.plan-content span {
+  color: #121614 !important;
+}
+
+.plan input[type="radio"]:checked+.plan-content {
+  border-color: #087965;
+  background-color: #F5FFFD;
+}
+
+span.radio_label_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/****************** custome check box end   ******************/
+
+.contact_horizontal_line {
+  border-bottom: 1px dashed #C1CBD6;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+/* Custome file upload  */
+.file-upload-btn {
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  background: #1FB264;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #15824B;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.file-upload-btn:hover {
+  background: #1AA059;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.file-upload-btn:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+  left: 0;
+}
+
+.image-upload-wrap {
+  border: 1px solid #D5DEEB;
+  border-radius: 10px;
+  position: relative;
+  background-color: #F3F8FE;
+  margin-bottom: 30px;
+}
+
+/* .image-dropping,
+.image-upload-wrap:hover {
+  background-color: #1FB264;
+  border: 4px dashed #ffffff;
+} */
+
+.image-title-wrap {
+  padding: 0 0px 15px 0px;
+  color: #222;
+}
+
+.drag-text {
+  text-align: center;
+}
+
+.drag-text h3 {
+  font-weight: 500;
+  /* text-transform: uppercase; */
+  color: #087965;
+  padding: 23px 0;
+}
+
+.file-upload-image {
+  max-height: 200px;
+  max-width: 200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.remove-image {
+  /* width: 200px; */
+  /* margin: 0; */
+  color: #087965;
+  background: #f3f8f7;
+  border: 1px solid transparent;
+  padding: 6px 11px;
+  border-radius: 6px;
+  /* border-bottom: 4px solid #b02818; */
+  transition: all .2s ease;
+  outline: none;
+  font-size: 14px;
+  /* text-transform: uppercase; */
+  font-weight: 500;
+
+}
+
+.remove-image:hover {
+  /* background: #c13b2a; */
+  /* color: #ffffff; */
+  transition: all .2s ease;
+  cursor: pointer;
+  border: 1px solid #087965;
+}
+
+.remove-image:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+/* end custome file uload  */
+
+.contact_send_box .btn.btn-primary {
+  width: 230px;
+  height: 50px;
+}
+
+/*************************** CONTACT US PAGE END    ****************************************/
+
+/*************************** PUBLISH RIDE PAGE START    ****************************************/
+
+.top_common_spacing {
+  padding-top: 116px;
+}
+
+.common_search_box {
+  height: 100vh;
+  background-color: #FCFCFC;
+}
+
+.common_search_box .search_body {
+  padding: 20px 0 25px;
+  min-height: 173px;
+}
+
+.common_map {
+  max-width: 1000px;
+  height: calc(100% - 250px);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.common_map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.bottom_fix {
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  right: 0;
+}
+
+.search_city_box {
+  width: 100%;
+  bottom: 0;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 10px 30px 25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: -62px;
+  min-height: 310px;
+}
+
+.search_city_head {
+  border-bottom: 1px solid #D5DEEB;
+  font-size: 20px;
+  font-weight: 600;
+  color: 121614;
+  padding: 10px 0 15px;
+}
+
+.location_input .form-control {
+  padding-left: 41px;
+  height: 54px;
+  padding-right: 35px;
+}
+
+.location_input .location_mark_icon::before {
+  left: 15px;
+  top: 22px;
+}
+
+.location_input .cancle_location {
+  position: absolute;
+  right: 15px;
+  width: 17px;
+  height: 17px;
+  background-color: #6F7C8E;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.location_input .cancle_location span {
+  font-size: 12px
+}
+
+.current_location_button {
+  margin-top: 20px
+}
+
+.btn-default {
+  padding: 14px 15px;
+  border: 1px solid #121614;
+  background-color: #fff;
+  color: #121614;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.btn-default img {
+  margin-right: 10px;
+}
+
+.btn-primary-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 17px;
+  background-color: #087965;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.btn-primary-icon span {
+  font-size: 18px;
+}
+
+.btn-primary-icon:hover {
+  background-color: rgba(8, 121, 101, 0.1);
+  border-color: #087965;
+}
+
+.btn-primary-icon:hover span {
+  color: #087965 !important;
+}
+
+.page_back {
+  position: absolute;
+  top: 0;
+  left: 23px;
+  width: 39px;
+  height: 39px;
+  border: 1px solid #121614;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.09);
+}
+
+.center_position_set {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+}
+
+.btn-suggestion {
+  display: inline-block;
+  width: 130px;
+  padding: 9px 17px;
+  background-color: #121614;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.btn-suggestion:hover {
+  background-color: #fff;
+  color: #121614;
+}
+
+/*************************** PUBLISH RIDE PAGE END    ****************************************/
+
+/*************************** ADD CITIES PAGE    ****************************************/
+
+.add_cities_page .search_city_box {
+  margin-top: 0;
+  box-shadow: 0px -4px 27px rgba(00, 00, 00, 0.05);
+}
+
+.add_stop_over {
+  padding-top: 20px;
+}
+
+.add_stopover_btn {
+  padding: 18px;
+  border: 1px dashed #087965;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  background: #F3F8F7;
+  color: #087965;
+}
+
+/*************************** ADD CITIES PAGE END    ****************************************/
+
+/*************************** PUBLISH RIDE SEARCH FOR ADD CITIES    ****************************************/
+.next_button .btn.btn-primary-icon {
+  width: 52px;
+  height: 52px;
+  padding: 0;
+}
+
+.next_button .btn.btn-primary-icon .material-symbols-outlined {
+  font-size: 28px;
+}
+
+/*************************** PUBLISH RIDE SEARCH FOR ADD CITIES END    ****************************************/
+
+/*************************** PUBLISH RIDE MANAGE CITIES    ****************************************/
+
+.top_fix .search_city_box {
+  margin-top: 0 !important;
+}
+
+.btn.add-cities-stop {
+  border: 1px dashed #087965;
+  position: absolute;
+  top: 6px;
+  right: 0;
+  color: #087965;
+  background: #F3F8F7;
+}
+
+.btn.add-cities-stop span {
+  font-size: 10px;
+}
+
+.single_city_box {
+  margin-bottom: 20px;
+}
+
+.manage_cities_box .single_city_box:last-child {
+  margin-bottom: 0;
+}
+
+.city_stop {
+  padding: 10px 15px;
+  border: 1px solid #F2F2F2;
+  border-radius: 8px;
+  width: calc(100% - 50px);
+  cursor: pointer;
+}
+
+.city_edit_icon {
+  width: 35px;
+  height: 35px;
+  background-color: #087965;
+  border-radius: 50px;
+  margin-left: 15px;
+}
+
+.city_stop.active {
+  border: 1px solid #087965;
+  background: #F5FFFD;
+}
+
+.single_city_box input:checked~.city_stop {
+  border: 1px solid #087965;
+  background: #F5FFFD;
+}
+
+.single_city_box input:checked~.city_stop p {
+  color: #121614 !important;
+}
+
+/*************************** PUBLISH RIDE MANAGE CITIES END ****************************************/
+
+/*************************** PUBLISH RIDE SELECT ROUTE ****************************************/
+
+.single_city_box.select_route {
+  margin-bottom: 15px;
+}
+
+/*************************** PUBLISH RIDE SELECT ROUTE END ****************************************/
+
+/*************************** SIGNUP PATGE  ****************************************/
+.left_side_logo {
+  margin: 5px 0;
+}
+
+.back_home_icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 12px;
+  border: 1px solid #121614;
+}
+
+.sign_up_body {
+  padding-top: 161px;
+}
+
+.register_box {
+  padding: 30px 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 -4px 27px rgba(18, 22, 20, 0.05);
+}
+
+.form-main-title {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #D5DEEB;
+  margin-bottom: 20px;
+}
+
+.single_signup_input span {
+  position: absolute;
+  top: auto;
+  left: 15px;
+  color: #6F7C8E;
+}
+
+.single_signup_input .form-control.singup_input {
+  padding-left: 43px;
+  height: 54px;
+}
+
+.single_signup_input .form-control.singup_input:visited {
+  background: #F5FFFD;
+}
+
+.single_signup_input:hover span {
+  color: #087965;
+}
+
+.single_signup_input span.verify_badge {
+  right: 15px;
+  left: auto;
+}
+
+.single_signup_input.disable input {
+  background-color: #F5FAF9 !important;
+  pointer-events: none;
+}
+
+.btn-primary.singup-btn {
+  padding: 7px 37px !important;
+}
+
+/*************************** SIGNUP PATGE END ****************************************/
+/*************************** PUBLISH RIDE SELECT DATE AND TIME *********************************/
+.modal.fade.select_date.show {
+  height: 100vh;
+  display: flex;
+}
+
+.modal-dialog.modal-dialog-end {
+  display: flex;
+  align-items: end;
+  min-height:100%;
+  margin-bottom: 0;
+  max-width: 600px;
+}
+
+.modal.fade .modal-dialog.modal-dialog-end {
+  transform: translate(0, 100%) !important;
+  margin: 0 auto;
+}
+
+.modal.fade.select_date.show .modal-dialog.modal-dialog-end {
+  transform: translate(0, 0) !important;
+}
+
+.select_date .common_close {
+  position: absolute !important;
+  top: -60px !important;
+  right: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.select_date .modal-content {
+  border-radius: 25px 25px 0 0;
+  min-height: 325px;
+}
+
+.select_date .modal-header {
+  padding-top: 20px;
+
+}
+
+.select_date .modal-body {
+  padding: 9px 30px;
+}
+
+.single_box_date_time .form-control {
+  padding-left: 42px;
+}
+
+.date-time-pick {
+  position: absolute;
+  top: auto;
+  left: 15px;
+}
+
+.select_date .modal-footer {
+  padding-bottom: 30px;
+}
+
+
+/*************************** PUBLISH RIDE SELECT DATE AND TIME END ******************************/
+/*************************** LICENCE PLATE NUMBER ******************************/
+.form-select.country-select {
+  width: 85px;
+  height: 32px;
+  border-radius: 10px;
+  padding: 0 34px 0 15px;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #F5FFFD;
+  border: none;
+  color: #087965;
+  background-image: url('../images/svg_icon/select-arrow-down.svg');
+}
+
+.country-badge {
+  margin-bottom: 20px;
+}
+
+.form-select.country-select:focus {
+  box-shadow: none !important;
+}
+
+.lic-plate_box .form-control {
+  height: 54px;
+}
+
+.btn.btn-primary-icon.lic-plate {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  right: 5px;
+  top: auto;
+}
+
+a.forward_btn {
+  border: 1px solid #121614 !important;
+  padding: 17px 18px;
+  border-radius: 10px;
+}
+
+/*************************** LICENCE PLATE NUMBER END ******************************/
+
+/*************************** VEHICAL BRAND  ***************************************/
+.search_car_icon {
+  position: absolute;
+  top: auto;
+  left: 15px;
+}
+
+.car_search_box .form-control {
+  padding-left: 45px;
+  height: 55px;
+}
+
+.brnad_icon {
+  width: 44px;
+  height: 44px;
+  margin-right: 12px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.brand_item label {
+  padding: 7px 10px;
+  border: 1px solid #F2F2F2;
+  border-radius: 8px;
+}
+
+.brand_item {
+  margin-bottom: 15px;
+}
+
+.brand_list .brand_item:last-child {
+  margin-bottom: 0;
+}
+
+.brnad_icon_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.brand_item input:checked+label {
+  border-color: #087965;
+  background-color: #F5FFFD;
+}
+
+.brand_list {
+  max-height: 361px;
+  overflow-y: auto;
+}
+
+.car_modal {
+  width: 58px;
+  height: 29px;
+  margin: 7.5px 5px 7.5px 0;
+}
+
+/*************************** VEHICAL BRAND END  ***************************************/
+
+/*************************** VEHICAL MODAL  ***************************************/
+.brand_item label.car_name {
+  padding: 17px;
+}
+
+/*************************** VEHICAL MODAL END  ***************************************/
+
+/*************************** UPLOAD VEHICLE IMAGE   ***************************************/
+.upload_img_icon {
+  margin: 6px 0 30px;
+  width: 85px;
+  height: 85px;
+  border-radius: 100%;
+  background: #F3F8F7;
+}
+
+.image-upload-wrap.vehicle-image {
+  padding: 14px 0;
+}
+
+/*************************** UPLOAD VEHICLE IMAGE END  ***************************************/
+
+/*************************** COLOR OF VEHICLE ***************************************/
+
+.color-dot {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  border-radius: 50px;
+}
+
+.bg_green {
+  background-color: #009E00;
+}
+
+.bg_blue {
+  background-color: #0022FF;
+}
+
+.bg_red {
+  background-color: #E80909;
+}
+
+.bg_yellow {
+  background-color: #FFC400;
+}
+
+.bg_orange {
+  background-color: #FF8000;
+}
+
+.bg_voilet {
+  background-color: #6600FF;
+}
+
+/*************************** COLOR OF VEHICLE END ***************************************/
+
+
+/*************************** PREFERENC OF YOUR RIDE ***************************************/
+
+.preferance_box .accordion-item {
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #D5DEEB;
+  border-radius: 0;
+}
+
+.preferance_box .accordion-button {
+  border: 1px solid #121614;
+  border-radius: 6px !important;
+}
+
+.preferance_box .accordion-header {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #121614 !important;
+}
+
+.preferance_box .accordion-button:not(.collapsed) {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #121614 !important;
+  background: transparent;
+}
+
+.preferance_box .accordion-button:not(.collapsed)::after {
+  background-image: url('../images/svg_icon/accordian-down.svg');
+  transform: rotate(0);
+}
+
+.preferance_box .accordion-button::after {
+  background-image: url('../images/svg_icon/accordian-down.svg');
+  transform: rotate(177deg);
+}
+
+.preferance_box .accordion-body {
+  padding: 20px 0;
+}
+
+.pref_icon {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+}
+
+.title_text {
+  font-size: 15px;
+}
+
+.title_detail {
+  font-size: 13px;
+}
+
+/* CUSTOME SWITCH START HERE  */
+.switch_box .switch {
+  position: relative;
+  width: 120px;
+  height: 35px;
+  border-radius: 6px;
+  display: block;
+  margin: auto;
+  margin-bottom: auto;
+}
+
+.switch_box .switch input {
+  display: none;
+}
+
+
+
+.switch_box .slider.round {
+  border-radius: 6px;
+}
+
+.switch_box .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #F5FFFD;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border: 2px solid #087965;
+}
+
+/*Moving SLider Section*/
+
+.switch_box .slider::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  left: 0;
+  bottom: 0;
+  background-color: #087965;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 3px !important;
+}
+
+/*Slider Text*/
+
+.switch_box .slider_text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.switch_box .slider_text>span {
+  color: #fff;
+  font-size: 18px;
+  width: 50%;
+  display: block;
+  float: left;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+/*Changes on Slide*/
+
+.switch_box input:checked+.slider::before {
+  -webkit-transform: translateX(60px);
+  -ms-transform: translateX(60px);
+  transform: translateX(60px);
+  border-radius: 6px !important;
+}
+
+.switch_box input:checked+.slider .off {
+  color: #087965;
+}
+
+.switch_box input:checked+.slider .on {
+  color: #fff;
+}
+
+.switch_box .slider .slider_text .on {
+  color: #087965;
+}
+
+.switch_box input:checked+.slider::before {
+  background-color: #087965;
+}
+
+.switch_box input:checked+.slider {
+  border: 2px solid #087965;
+  background-color: #F5FFFD;
+}
+
+/* CUSTOME SWITCH END HERE  */
+.horizontal_line {
+  display: block;
+  border-bottom: 1px solid #D5DEEB;
+  margin: 22px 0;
+}
+
+.kilo_meter_box {
+  background-color: #F3F8FE;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.kilo_top {
+  margin-bottom: 10px;
+}
+
+.kilo_top .input_box .form-control {
+  border: 1px solid #D5DEEB;
+  background: #fff;
+  width: 158px;
+  height: 38px;
+}
+
+.kilo_bottom .form-control {
+  background-color: #fff;
+  border: 1px solid #D5DEEB;
+  height: 38px;
+}
+
+.kilo_top .input_box .form-control:focus,
+.kilo_bottom .form-control:focus {
+  border-color: #006f5b;
+  background-color: #F5FFFD;
+}
+
+.kms label {
+  border: 1px solid #F2F2F2;
+  border-radius: 50px;
+  padding: 8px 21px;
+  background: #fff;
+  line-height: normal;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.kms input:checked+label {
+  background-color: #F5FFFD;
+  border-color: #006f5b;
+}
+
+.mile-icon {
+  font-size: 13px;
+  font-weight: 500;
+  position: absolute;
+  top: auto;
+  right: 27px;
+}
+
+.mile-icon:after {
+  content: '';
+  position: absolute;
+  border-right: 1px;
+  width: 1px;
+  height: 20px;
+  background: #D5DEEB;
+  right: 40px;
+
+}
+
+/*************************** PREFERENC OF YOUR RIDE END ***************************************/
+/*************************** PROFILE PAGE ***************************************/
+.profile-body {
+  padding-top: 117px;
+}
+
+.page_title {
+  margin-bottom: 39px;
+}
+
+.left_top_box {
+  margin-bottom: 20px;
+}
+
+.top_box_content {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 22px rgba(18, 20, 22, 0.05);
+}
+
+.left_box_list {
+  list-style-type: none;
+}
+
+.verifyeid_number .left_box_list-title {
+  color: #087965;
+}
+
+.left_box_list_link {
+  background: #F9F9F9;
+  display: block;
+  padding: 12px 16px;
+  border-radius: 10px;
+}
+
+.left_box_list-title {
+  font-size: 13px;
+  color: #000000;
+}
+
+.left_box_list_link.verifyeid_number {
+  background: #F5FAF9;
+  cursor: not-allowed;
+}
+
+.left_bottom_box .left_box_list {
+  padding: 20px 16px 0;
+  border-bottom: 1px solid #D5DEEB;
+
+}
+
+.left_bottom_box .left_box_list .left_box_list_link {
+  border-radius: 0;
+  background: none;
+  margin-bottom: 22px;
+  padding: 0;
+  color: #121614;
+}
+
+.li-arrow {
+  color: #6F7C8E;
+
+}
+
+.left_bottom_box .left_box_list .left_box_list_link:hover {
+  color: #006f5b !important;
+}
+
+.left_bottom_box .left_box_list .left_box_list_link:hover .left_box_list-title {
+  color: #006f5b !important;
+}
+
+.left_bottom_box .left_box_list .left_box_list_link:hover .li-arrow {
+  color: #006f5b;
+}
+
+.badge.badge-rating {
+  border-radius: 50px;
+  padding: 3px 9px;
+}
+
+.left_box_signout {
+  margin: 18px 0 4px;
+}
+
+.main-profile_content {
+  background: #fff;
+  border-radius: 15px;
+  padding: 22px 10px 22px 30px;
+  box-shadow: 0 5px 27px rgba(0, 0, 0, 0.03);
+}
+
+.user_profile_details {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #D5DEEB;
+}
+
+.user_icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  overflow: hidden;
+  border: 2px solid #087965;
+  margin-left: 8px;
+}
+
+.profile_edit_btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #ECF0F6;
+}
+
+.dob_join_date_box {
+  border-bottom: 1px solid #D5DEEB;
+}
+
+.your_bio p {
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.your_bio {
+  padding-bottom: 17px;
+  margin-bottom: 22px;
+}
+
+.single_feature_box {
+  border: 1px solid #D5DEEB;
+  border-radius: 6px;
+  padding: 17px 10px 23px;
+  width: 293px;
+  margin-right: 20px;
+}
+
+.feature_icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+}
+
+/*************************** PROFILE PAGE END ***************************************/
+/*************************** EDIT PROFILE PAGE ***************************************/
+.edit_user_img {
+  margin-bottom: 26px;
+}
+
+.edit_user_icon_box {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  overflow: hidden;
+  border: 2px solid #006f5b;
+  margin-right: 20px;
+}
+
+.pic_upload label {
+  padding: 15px;
+  background: #F3F8FE;
+  border-radius: 10px;
+}
+
+.dob_icon {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: none;
+}
+
+[type="date"] {
+  background: #fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% 50% no-repeat !important;
+}
+
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.single_input_box {
+  margin-bottom: 20px;
+}
+
+.gender_box {
+  background: #F9F9F9;
+  height: 54px;
+  border-radius: 10px;
+  padding: 0px 21px;
+
+}
+
+select.form-select.form-control:focus {
+  border-color: #006f5b;
+}
+
+.edti_user_details textarea.form-control {
+  resize: none;
+  border: 2px solid transparent;
+  background: #F9F9F9;
+  border-radius: 10px;
+  height: 87px;
+}
+
+.edti_user_details .form-control {
+  height: 54px;
+
+}
+
+.arrow_gender {
+  position: absolute;
+  right: 15px;
+  top: auto;
+}
+
+/* select gender modal  */
+.brand_item.gender_item label {
+  padding: 12.5px 19px;
+}
+
+/*************************** EDIT PROFILE PAGE END ***************************************/
+
+/**************************** SUMMARY MODAL  *******************************************/
+.signgle_summary_card {
+  padding: 12px 16px;
+  background: #F4F9FF;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.summary_icon {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.summary_count {
+  font-size: 28px;
+}
+
+/************************************ RATTING MODAL END ************************************/
+
+/************************************ RATING PAGE START HERE  *******************************/
+.left_rating_box {
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 22px rgba(18, 22, 20, 0.05);
+}
+
+.top_over_view {
+  border-bottom: 1px solid #D5DEEB;
+  padding-bottom: 15px;
+}
+
+.rating_badge {
+  border-radius: 8px;
+  padding: 6px 12px;
+  margin-right: 10px;
+}
+
+.summary_graph {
+  padding-top: 5px;
+}
+
+.graph-value {
+  font-size: 15px;
+}
+
+.graph_title {
+  margin-bottom: 2px;
+  padding-top: 16px;
+}
+
+.graph_progress {
+  height: 6px;
+  border-radius: 50px;
+}
+
+.main-profile_content.main-rating_content {
+  padding: 20px;
+}
+
+.driving-badge {
+  padding: 12.5px 39px;
+  background: #F4F9FF;
+  border-radius: 10px;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.behavior-badge span {
+  color: #FF4343;
+}
+
+.cleanliness-badge span {
+  color: #FFA200;
+}
+
+.top_main_over {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #D5DEEB;
+  margin-bottom: 20px;
+}
+
+.top_main_over .driving-badge:last-child {
+  margin-right: 0;
+}
+
+.user_rating_icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.comment_detail_box {
+  border-bottom: 1px solid #D5DEEB;
+}
+
+.review_rating_box {
+  max-height: 360px;
+  overflow-y: auto;
+}
+/************************************ RATING PAGE END HERE  *******************************/
+
+/************************************ MANGE VIHECLE START HERE  ************************************/
+
+.edit_icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 8px;
+  background: #EBF4F3;
+  margin-right: 15px;
+}
+.car_pref_tab{
+  margin-bottom: 20px;
+}
+.car_pref_tab li .nav-link.active{
+  border: 1px solid #087965;
+  color:#087965;
+  background: #EBF4F3;
+  border-radius: 50px;
+}
+.car_pref_tab li .nav-link{
+  border: 1px solid #D5DEEB;
+  color: #121614;
+  background: #FFFFFF;
+  padding: 11px 50.5px;
+  border-radius: 50px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.single_default_pref {
+  border: 1px solid #D5DEEB;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+.default_pref_box .single_default_pref:last-child{
+  margin-bottom: 0;
+}
+.default_pref_box{
+  max-height: 348px;
+  overflow-y: auto;
+}
+.btn.add_traval_pref {
+  position: absolute;
+  top: 6px;
+  right: 0;
+  color: green;
+  border: 1px dashed;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border-radius: 9px;
+  background: #F3F8F7;
+}
+.custome_pref_modal .modal-body {
+  padding: 24px 29px 5px;
+}
+
+.single_input_box textarea.form-control {
+  resize: none;
+  height: 95px;
+  border-radius: 10px;
+}
+/************************************ MANGE VIHECLE END HERE  ************************************/
+/************************************ NOTIFICATION START HERE  ************************************/
+.clear_all {
+  text-decoration: underline;
+}
+.single_notification_box{
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.03);
+  padding: 15px 16px;
+  margin-bottom: 20px;
+}
+.main_notification_content .single_notification_box:last-child{
+  margin-bottom: 0;
+}
+.noti_user_icon_box{
+  margin-right: 20px;
+}
+.noti_user_icon{
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  background: #F4F7FA;
+}
+.noti_user_icon:after{
+  content: '';
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  width: 9px;
+  height: 9px;
+  border-radius:50px;
+  background: #087965;
+}
+/************************************ NOTIFICATION END HERE  ************************************/
